@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+
+android:orientation="vertical">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="更多"
+        android:textSize="25sp"
+
+        android:gravity="center_horizontal"
+        android:clickable="false"
+        android:id="@+id/tv_more"
+        android:textStyle="bold"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#a39999"
+        android:id="@+id/tv_line1"
+        android:layout_below="@+id/tv_more"/>
+
+    <TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/tv_shoucang"
+    android:text="我的收藏"
+    android:textSize="20sp"
+    android:layout_below="@+id/tv_line1"
+    android:drawableRight="@drawable/arrow"
+        android:background="@drawable/umeng_xp_icon_background"
+    android:layout_marginTop="10dp"
+    android:layout_marginBottom="10dp"
+    android:clickable="true"
+    android:gravity="center_vertical"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#a39999"
+        android:id="@+id/tv_line2"
+        android:layout_below="@+id/tv_shoucang"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_down"
+        android:text="我的下载"
+        android:background="@drawable/umeng_xp_icon_background"
+        android:textSize="20sp"
+        android:layout_below="@+id/tv_line2"
+        android:drawableRight="@drawable/arrow"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:clickable="true"
+        android:gravity="center_vertical"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="5dp"
+        android:background="#a39999"
+        android:id="@+id/tv_line3"
+        android:layout_below="@+id/tv_down"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_tuijian"
+        android:text="推荐给好友"
+        android:background="@drawable/umeng_xp_icon_background"
+        android:textSize="20sp"
+        android:layout_below="@+id/tv_line3"
+        android:drawableRight="@drawable/arrow"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:clickable="true"
+        android:gravity="center_vertical"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#a39999"
+        android:id="@+id/tv_line4"
+        android:layout_below="@+id/tv_tuijian"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_good"
+        android:text="给个好评"
+        android:background="@drawable/umeng_xp_icon_background"
+        android:textSize="20sp"
+        android:layout_below="@+id/tv_line4"
+        android:drawableRight="@drawable/arrow"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:clickable="true"
+        android:gravity="center_vertical"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#a39999"
+        android:id="@+id/tv_line5"
+        android:layout_below="@+id/tv_good"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_set"
+        android:text="设置"
+        android:background="@drawable/umeng_xp_icon_background"
+        android:textSize="20sp"
+        android:layout_below="@+id/tv_line5"
+        android:drawableRight="@drawable/arrow"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:clickable="true"
+        android:gravity="center_vertical"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#a39999"
+        android:id="@+id/tv_line6"
+        android:layout_below="@+id/tv_set"/>
+
+
+</RelativeLayout>

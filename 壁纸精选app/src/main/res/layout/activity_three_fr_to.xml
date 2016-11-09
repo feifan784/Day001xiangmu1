@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#33000000"
+    tools:context="com.example.xu.day001xiangmu1.ThreeFrToActivity">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#fff"
+        >
+        <SearchView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_toLeftOf="@+id/tv_threefr_ac"
+            android:id="@+id/sv">
+
+        </SearchView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv_threefr_ac"
+            android:text="取消"
+            android:textSize="20sp"
+            android:clickable="true"
+            android:layout_marginTop="10dp"
+            android:layout_alignParentRight="true"
+
+            />
+
+    </RelativeLayout>
+
+
+
+
+
+
+</RelativeLayout>

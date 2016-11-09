@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.xu.day001xiangmu1.OneActivity">
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/fl"
+        android:layout_above="@+id/group"></FrameLayout>
+
+    <RadioGroup
+        android:id="@+id/group"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/rb_one"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@null"
+            android:button="@null"
+            android:drawableTop="@drawable/bottom_recommand"
+            android:gravity="center"
+            android:tag="0"
+            android:text="推荐"
+            android:textColor="@drawable/text_color"
+
+
+            />
+
+        <RadioButton
+            android:id="@+id/rb_two"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@null"
+            android:button="@null"
+            android:drawableTop="@drawable/bottom_category"
+            android:gravity="center"
+            android:tag="1"
+            android:text="分类"
+            android:textColor="@drawable/text_color"
+
+
+            />
+
+        <RadioButton
+            android:id="@+id/rb_three"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@null"
+            android:button="@null"
+            android:drawableTop="@drawable/bottom_search"
+            android:gravity="center"
+            android:tag="2"
+            android:text="搜索"
+            android:textColor="@drawable/text_color"
+             />
+
+        <RadioButton
+            android:id="@+id/rb_four"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@null"
+            android:button="@null"
+            android:drawableTop="@drawable/bottom_more"
+            android:gravity="center"
+            android:tag="3"
+            android:text="更多"
+            android:textColor="@drawable/text_color"
+             />
+    </RadioGroup>
+
+</RelativeLayout>
